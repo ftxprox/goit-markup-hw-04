@@ -13,6 +13,11 @@ body{
     color:#4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px
+}
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 .logo-accent{
     font-family: "Raleway", sans-serif;
@@ -84,7 +89,6 @@ body{
 .footer-logo-accent{
     color: #f4f4fd;
 }
-
 .adress{
     font-style: normal;
 }
@@ -95,6 +99,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 .header-contact-link{
     color: #434455;
