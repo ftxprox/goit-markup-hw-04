@@ -185,3 +185,7 @@ ul {
 .images{
     display: block;
 }
+.header-menu-item{
+    display: flex;
+    margin-right: 40px;
+}
