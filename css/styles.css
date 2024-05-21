@@ -117,6 +117,8 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .second-section-p {
     line-height: 1.5;
@@ -188,4 +190,15 @@ ul {
 .header-menu-item{
     display: flex;
     margin-right: 40px;
+}
+.main-footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+    margin-right: 76px
 }
