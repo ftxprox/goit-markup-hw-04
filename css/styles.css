@@ -11,6 +11,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-accent{
     font-family: "Raleway", sans-serif;
@@ -62,7 +64,9 @@ body{
     background-color: #404BBF;
 }
 .footer{
-background-color: #2e2f42;
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-info-text{
     line-height: 1.5;
@@ -75,6 +79,9 @@ background-color: #2e2f42;
 
 .adress{
     font-style: normal;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-contact-menu>li {
     line-height: 1.5;
@@ -152,8 +159,11 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.section{
+.container{
     width: 1158px;
     padding-bottom: 120px;
     padding-top: 120px;;
+}
+.images{
+
 }
