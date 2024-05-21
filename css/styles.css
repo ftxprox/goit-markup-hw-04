@@ -163,7 +163,7 @@ a {
 ul {
     list-style: none;
 }
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -191,7 +191,7 @@ ul {
     display: flex;
     margin-right: 40px;
 }
-.main-footer-logo {
+.main-footer-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -200,5 +200,6 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
 }
