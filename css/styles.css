@@ -54,6 +54,8 @@ body{
 }
 .first-section {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .first-section-h{
     font-size: 56px;
@@ -61,6 +63,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 .first-section-button:hover {
     background-color: #404BBF;
