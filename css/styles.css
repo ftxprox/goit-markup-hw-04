@@ -1,0 +1,142 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.main-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+.logo-accent{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.header-menu-nav>li{
+    font-weight: 500;
+}
+
+.link-logo{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.link-logo:hover{
+    color: #404bbf;
+}
+.link-logo:focus{
+    color:#404bbf;
+}
+
+.first-section-button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.first-section {
+    background-color: #2e2f42;
+}
+.first-section-h{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.first-section-button:hover {
+    background-color: #404BBF;
+}
+.first-section-button:focus {
+    background-color: #404BBF;
+}
+.footer{
+background-color: #2e2f42;
+}
+.footer-info-text{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em
+}
+.footer-logo-accent{
+    color: #f4f4fd;
+}
+
+.adress{
+    font-style: normal;
+}
+.header-contact-menu>li {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-contact-link{
+    color: #434455;
+}
+.header-contact-link:hover{
+    color: #404bbf;
+}
+.header-contact-link:focus {
+    color: #404bbf;
+}
+.second-section{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.second-section-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.second-section-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42
+}
+.third-section-bg{
+    background-color: #F4F4FD;
+}
+.third-section{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+.third-section-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.third-section-p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.third-section-li-bg>li{
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
