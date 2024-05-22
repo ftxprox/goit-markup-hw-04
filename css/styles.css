@@ -31,7 +31,7 @@ body{
 .header-menu-nav>li{
     font-weight: 500;
     display: flex;
-
+    gap: 40px;
 }
 .link-logo{
     line-height: 1.5;
@@ -47,7 +47,7 @@ body{
     color:#404bbf;
 }
 
-.first-section-button {
+.first-section-button{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -60,7 +60,7 @@ body{
     border: none;
     border-radius: 4px;
 }
-.first-section {
+.first-section{
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -73,10 +73,10 @@ body{
     color: #ffffff;
     max-width: 496px;
 }
-.first-section-button:hover {
+.first-section-button:hover{
     background-color: #404BBF;
 }
-.first-section-button:focus {
+.first-section-button:focus{
     background-color: #404BBF;
 }
 .footer{
@@ -98,7 +98,7 @@ body{
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-.header-contact-menu>li {
+.header-contact-menu>li{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -111,7 +111,7 @@ body{
 .header-contact-link:hover{
     color: #404bbf;
 }
-.header-contact-link:focus {
+.header-contact-link:focus{
     color: #404bbf;
 }
 .second-section{
@@ -123,7 +123,7 @@ body{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.second-section-p {
+.second-section-p{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
