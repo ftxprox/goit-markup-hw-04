@@ -13,7 +13,7 @@ body{
     color:#4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 76px
+    margin-right: 76px;
 }
 .header-nav{
     display: flex;
@@ -94,6 +94,7 @@ body{
 }
 .adress{
     font-style: normal;
+    margin-left: auto;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -104,6 +105,7 @@ body{
     color: #434455;
     display: flex;
     gap: 40px;
+
 }
 .header-contact-link{
     color: #434455;
@@ -184,8 +186,12 @@ ul {
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
 }
 .images{
     display: block;
@@ -197,6 +203,10 @@ ul {
 }
 .footer-container{
     display: inline-block;
+}
+.header-menu-nav{
+    display: flex;
+    gap: 40px;
 }
 .box-service{
     padding: 188px 0;
