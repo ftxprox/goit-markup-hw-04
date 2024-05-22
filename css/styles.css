@@ -28,8 +28,8 @@ body{
     text-transform: uppercase;
     color: #2e2f42;
 }
-.header-menu-nav>li{
-    font-weight: 500;
+.header-menu-nav{
+    list-style-type: none;
     display: flex;
     gap: 40px;
 }
@@ -166,6 +166,8 @@ a {
 }
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .visually-hidden{
     position: absolute;
@@ -201,7 +203,12 @@ ul {
 .box-service{
     padding: 188px 0;
 }
-.test{
-    padding-left: 15px;
-    padding-right: 15px;
+.menu-nav-li{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--navy-blue);
+            display: block;
+            padding: 24px 0;
 }
