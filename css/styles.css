@@ -234,3 +234,12 @@ ul {
     text-align: center;
     margin-bottom: 8px;
 }
+.Portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.Portfolio-item{
+    width: calc((100% - 48px) / 3);
+}
