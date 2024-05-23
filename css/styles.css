@@ -112,7 +112,6 @@ body{
     color: #434455;
     display: flex;
     gap: 40px;
-
 }
 .header-contact-link{
     color: #434455;
@@ -225,6 +224,10 @@ ul {
 }
 .footer-container{
     display: inline-block;
+    margin-bottom: 16px;
+    padding-left: 156px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .header-menu-nav{
     display: flex;
