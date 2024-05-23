@@ -151,6 +151,9 @@ body{
     color:#2e2f42;
     margin-bottom: 72px;
 }
+.third-section-bg{
+    background: #f4f4fd;
+}
 .third-section-h{
     font-weight: 500;
     font-size: 20px;
