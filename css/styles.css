@@ -255,3 +255,6 @@ ul {
     display: flex;
     gap: 24px;
 }
+.Features-item{
+    width: calc((100% - 72px) / 4);
+}
