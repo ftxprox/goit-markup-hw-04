@@ -221,13 +221,13 @@ ul {
     padding: 188px 0;
 }
 .menu-nav-li{
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--navy-blue);
-            display: block;
-            padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        display: block;
+        padding: 24px 0;
 }
 .Team-employee{
     padding: 32px 0;
@@ -242,4 +242,10 @@ ul {
 }
 .Portfolio-item{
     width: calc((100% - 48px) / 3);
+}
+.Portfolio-description{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
