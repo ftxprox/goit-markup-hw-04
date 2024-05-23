@@ -272,7 +272,7 @@ ul {
 .Features-item{
     width: calc((100% - 72px) / 4);
 }
-.portfolio-section{
+.Portfolio-section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
