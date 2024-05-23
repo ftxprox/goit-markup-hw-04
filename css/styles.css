@@ -258,3 +258,6 @@ ul {
 .Features-item{
     width: calc((100% - 72px) / 4);
 }
+.third-section-bg{
+    padding: 120px 0
+}
