@@ -153,6 +153,8 @@ body{
 }
 .third-section-bg{
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .third-section-h{
     font-weight: 500;
@@ -259,4 +261,15 @@ ul {
 }
 .Features-item{
     width: calc((100% - 72px) / 4);
+}
+.portfolio-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
