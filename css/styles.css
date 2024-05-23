@@ -134,6 +134,7 @@ body{
 .second-section-p{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
 }
 .second-section-h{
     font-weight: 1128px;
@@ -271,7 +272,7 @@ ul {
     padding: 0 156px;
 }
 .Features-item{
-    width: calc((100% - 72px) / 4);
+    
 }
 .Portfolio-section{
     padding-top: 120px;
