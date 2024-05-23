@@ -198,7 +198,6 @@ ul {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-
 }
 .header-container{
     display: flex;
@@ -257,7 +256,4 @@ ul {
 }
 .Features-item{
     width: calc((100% - 72px) / 4);
-}
-.third-section-bg{
-    padding: 120px 0
 }
