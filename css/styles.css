@@ -123,7 +123,6 @@ body{
     color: #404bbf;
 }
 .second-section{
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -134,6 +133,7 @@ body{
 .second-section-p{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 .second-section-h{
     font-weight: 1128px;
@@ -268,10 +268,9 @@ ul {
 .features-list{
     display: flex;
     gap: 24px;
-    padding: 0 156px;
 }
 .features-item{
-    flex-basis: calc((1128px - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-section{
     padding-top: 120px;
