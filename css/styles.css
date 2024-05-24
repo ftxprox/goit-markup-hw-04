@@ -62,7 +62,6 @@ body{
     max-width: 496px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 48px;
 }
 .first-section{
     background-color: #2e2f42;
@@ -85,19 +84,6 @@ body{
 }
 .first-section-button:focus{
     background-color: #404BBF;
-}
-.footer{
-    background-color: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.footer-info-text{
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em
-}
-.footer-logo-accent{
-    color: #f4f4fd;
 }
 .adress{
     font-style: normal;
@@ -177,9 +163,6 @@ body{
 }
 .third-section-li{
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     width: calc((100% - 72px) / 4);
@@ -190,8 +173,13 @@ a {
 }
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1,h2,h3,p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .visually-hidden{
     position: absolute;
@@ -220,21 +208,13 @@ ul {
 .header-menu-item{
     gap: 40px;
     display: flex;
-    margin-right: 40px;
 }
-.footer-container{
-    display: inline-block;
-    margin-bottom: 16px;
-    padding-left: 156px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 .header-menu-nav{
     display: flex;
     gap: 40px;
 }
 .box-service{
-    padding: 188px 0;
 }
 .menu-nav-li{
         font-weight: 500;
@@ -248,7 +228,6 @@ ul {
 .team-employee{
     padding: 32px 0;
     text-align: center;
-    margin-bottom: 8px;
 }
 .portfolio-list{
     display: flex;
@@ -263,7 +242,6 @@ ul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .features-list{
     display: flex;
@@ -285,6 +263,10 @@ ul {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+
+
+
+
 .main-logo-footer{
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -296,4 +278,19 @@ ul {
     color: #4d5ae5;
     display: inline-block;
     margin-right: 76px;
+}
+.footer-info-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    max-width: 264px;
+}
+.footer-logo-accent {
+    color: #f4f4fd;
+}
+.footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
