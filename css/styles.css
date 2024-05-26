@@ -65,7 +65,7 @@ body{
 }
 .hero-section{
     /* max-width: 1440px;  */
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-img.jpg), url(../images/Dark-bg.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-img.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
     background-position: center;
@@ -218,8 +218,7 @@ h1,h2,h3,p{
     display: flex;
     gap: 40px;
 }
-.box-service{
-}
+
 .menu-nav-li{
         font-weight: 500;
         font-size: 16px;
@@ -232,6 +231,11 @@ h1,h2,h3,p{
 .team-employee{
     padding: 32px 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
 }
 .portfolio-list{
     display: flex;
@@ -297,4 +301,38 @@ h1,h2,h3,p{
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+
+
+
+
+.social-links {
+    display: flex;
+    gap: 24px;
+    flex-shrink: 0;
+    align-self: center;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    fill: #fff;
+}
+.social-links .link:hover {
+    background-color: #fff;
+}
+.social-links .icon {
+    fill: #4d5ae5;
+}
+.social-links .link:hover .icon {
+    fill: #03a9f4;
+}
+
+.footer-icon{
+    fill: #fff;
 }
