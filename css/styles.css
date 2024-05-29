@@ -193,6 +193,7 @@ body{
     background: #fff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    gap: 24px;
 }
 a {
     text-decoration: none;
