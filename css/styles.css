@@ -363,22 +363,21 @@ h1,h2,h3,p{
 .footer-link:hover{
     background-color: #31d0aa;
 }
-
 .footer-container{
     display: flex;
     align-items: baseline;
 }
+
 .footer-info-text-container{
 margin-right: 120px;
 }
 .footer-social-media {
-    
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 .social-links {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     flex-shrink: 0;
     align-self: center;
     justify-content: center;
