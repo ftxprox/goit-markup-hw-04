@@ -357,6 +357,7 @@ h1,h2,h3,p{
             border-radius: 50%;
             background-color: #4d5ae5;
             fill: #f4f4fd;
+            gap: 16px;
 }
 .footer-link:focus{
     background-color: #31d0aa;
