@@ -379,7 +379,7 @@ margin-right: 120px;
 }
 .social-links {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     flex-shrink: 0;
     align-self: center;
     justify-content: center;
