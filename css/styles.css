@@ -359,6 +359,9 @@ h1,h2,h3,p{
             fill: #f4f4fd;
             gap: 16px;
 }
+.icon-item-footer{
+    gap: 16px;
+}
 .footer-link:focus{
     background-color: #31d0aa;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
