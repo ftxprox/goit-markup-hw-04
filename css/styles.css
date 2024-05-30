@@ -366,6 +366,7 @@ h1,h2,h3,p{
     background-color: #4d5ae5;
     fill: #f4f4fd;
     gap: 16px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-item-footer{
     gap: 16px;
