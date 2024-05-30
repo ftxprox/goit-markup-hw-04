@@ -363,10 +363,10 @@ h1,h2,h3,p{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #4d5ae5;
     fill: #f4f4fd;
     gap: 16px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-item-footer{
     gap: 16px;
