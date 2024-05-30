@@ -394,6 +394,13 @@ h1,h2,h3,p{
 .footer-social-media {
     gap: 16px;
 }
+.social-links-footer{
+        display: flex;
+        gap: 16px;
+        flex-shrink: 0;
+        align-self: center;
+        justify-content: center;
+}
 .social-links {
     display: flex;
     gap: 24px;
