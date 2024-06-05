@@ -457,3 +457,38 @@ h1,h2,h3,p{
 .overlay-image:hover .overlay{
     transform: translateY(0);
 }
+.footer-subsribe{
+    display: flex;
+}
+.subscribe-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+        color: #fff;
+}
+.footer-icon-telegram{
+    fill: #fff;
+}
+.footer-info-text{
+    
+}
+
+.form-input {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+}
